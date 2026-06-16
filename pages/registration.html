@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glow Care Registration</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Iqra Cosmatics</h1>
+        <h2>Be Your Best Self  </h2>  
+    </header>
+    
+    <div><nav>
+        <a href="../index.html">Home</a>&nbsp;&nbsp;
+        <a href="../pages/team.html">Team</a>&nbsp;&nbsp;
+        <a href="../pages/registration.html">Registration</a>&nbsp;&nbsp;
+        <a href="../pages/contact.html">Contact</a>
+    </nav></div>
+
+        <h1>Registration Form</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+        
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="Female" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="Male" id="male">
+        <label for="male">Male</label>
+        <br><br>
+
+        <label for="skin_type">Skin Type:</label><br>
+        <select id="skin_type" name="skin_type">
+            <option>Normal</option>
+            <option>Dry</option>
+            <option>Oily</option>
+            <option>Combination</option>
+            <option>Sensitive</option>
+        </select>
+        <br><br>
+
+        <label for="products">Interested Products:</label><br>
+        <input type="checkbox" name="face-cream" id="face-cream">
+        <label for="face-cream">Face Cream</label>
+        <input type="checkbox" name="serum" id="serum">
+        <label for="serum">Serum</label>
+        <input type="checkbox" name="sunscreen" id="sunscreen">
+        <label for="sunscreen">Sunscreen</label>
+        <input type="checkbox" name="cleanser" id="cleanser">
+        <label for="cleanser">Cleanser</label>
+        <br><br>
+
+        <label for="notes">Additional Notes:</label><br>
+        <textarea id="notes" name="notes" rows="5" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Form">
+        </fieldset>
+    </form>
+
+</body>
+</html>
